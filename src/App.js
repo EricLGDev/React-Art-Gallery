@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Gallery from './Gallery';
+import ButtonBar from './ButtonBar';
 
 function App() {
   let [data, setData] = useState({})
@@ -33,6 +34,7 @@ function App() {
       <div style={{'width': '100%'}}>
         {displayImage()}
       </div>
+      <ButtonBar handleIterate={handleIterate} />
     </div>
   );
 }
