@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Gallery from './Gallery';
 import ButtonBar from './ButtonBar';
+import './App.css';
 
 function App() {
   let [data, setData] = useState({})
