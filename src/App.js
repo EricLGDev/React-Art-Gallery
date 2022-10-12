@@ -1,12 +1,10 @@
-
-import './App.css';
+import { useState, useEffect } from 'react';
 
 function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+
+  useEffect(() => {
+    document.title = 'Welcome to ArtWorld'
+  })
 }
 
 export default App;
